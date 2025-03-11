@@ -22,6 +22,7 @@ async def root():
         }
     }
 
+
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
